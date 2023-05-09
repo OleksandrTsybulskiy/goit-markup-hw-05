@@ -389,7 +389,7 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--color-light-slate);
-  transition: color var(--anim-style), border-color var(--anim-style);
+  transition: border-color var(--anim-style), color var(--anim-style);
 }
 
 .cust-logo {
@@ -543,7 +543,7 @@ body {
   padding: 12px 24px;
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
-  transition: background-color var(--anim-style), color var(--anim-style), border var(--anim-style), box-shadow var(--anim-style);
+  transition: color var(--anim-style), background-color var(--anim-style), border-color var(--anim-style), box-shadow var(--anim-style);
 }
 
 .filter-button:hover,
